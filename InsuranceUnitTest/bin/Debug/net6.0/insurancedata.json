@@ -1,0 +1,56 @@
+{
+  "Claim": [
+    {
+      "UCR": "xxxxxxxxx",
+      "CompanyId": 1,
+      "ClaimDate": "2023-01-19T15:00:00",
+      "LossDate": "2023-02-19 15:00",
+      "AssuredName": "abc",
+      "IncurredLoss": "2000.90",
+      "Closed": 1,
+      "claimDuration": 0
+    },
+    {
+      "UCR": "yyyyyy",
+      "CompanyId": 2,
+      "ClaimDate": "2023-01-23T15:00:00",
+      "LossDate": "",
+      "AssuredName": "abc",
+      "IncurredLoss": "0",
+      "Closed": 0,
+      "claimDuration": -3
+    }
+  ],
+  "ClaimType": [
+    {
+      "id": 1,
+      "Name": "GDPR Loss"
+    },
+    {
+      "id": 2,
+      "Name": "asset Loss"
+    }
+  ],
+  "Company": [
+    {
+      "id": 1,
+      "Name": "Abc LTD",
+      "Address1": "55-56 queens house",
+      "Address2": "Linkdon field",
+      "Address3": "",
+      "PostCode": "WC2A3LJ",
+      "Active": 1,
+      "InsuranceEndDate": "2024-01-31 23:59"
+    },
+    {
+      "id": 2,
+      "Name": "XYZ LTD",
+      "Address1": "King Street",
+      "Address2": "",
+      "Address3": "",
+      "PostCode": "EC2VAZ",
+      "Active": 1,
+      "InsuranceEndDate": "2024-01-01 23:59"
+    }
+  ]
+}

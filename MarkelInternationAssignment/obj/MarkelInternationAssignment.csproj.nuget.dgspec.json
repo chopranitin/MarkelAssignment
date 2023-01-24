@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\EFSamples\\MarkelInternationAssignment\\MarkelInternationAssignment.csproj": {}
+    "C:\\EFSamples\\MarkelAssignment\\MarkelInternationAssignment\\MarkelInternationAssignment.csproj": {}
   },
   "projects": {
-    "C:\\EFSamples\\MarkelInternationAssignment\\MarkelInternationAssignment.csproj": {
+    "C:\\EFSamples\\MarkelAssignment\\MarkelInternationAssignment\\MarkelInternationAssignment.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\EFSamples\\MarkelInternationAssignment\\MarkelInternationAssignment.csproj",
+        "projectUniqueName": "C:\\EFSamples\\MarkelAssignment\\MarkelInternationAssignment\\MarkelInternationAssignment.csproj",
         "projectName": "MarkelInternationAssignment",
-        "projectPath": "C:\\EFSamples\\MarkelInternationAssignment\\MarkelInternationAssignment.csproj",
+        "projectPath": "C:\\EFSamples\\MarkelAssignment\\MarkelInternationAssignment\\MarkelInternationAssignment.csproj",
         "packagesPath": "C:\\Users\\chopr\\.nuget\\packages\\",
-        "outputPath": "C:\\EFSamples\\MarkelInternationAssignment\\obj\\",
+        "outputPath": "C:\\EFSamples\\MarkelAssignment\\MarkelInternationAssignment\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\chopr\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,20 +39,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[7.0.2, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[7.0.2, )"
-            },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.2, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -63,15 +49,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.308\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     }
