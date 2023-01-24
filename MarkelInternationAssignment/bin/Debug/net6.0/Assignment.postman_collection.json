@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "eca146bf-20f6-44c5-90f5-bfe6a60151c6",
+		"name": "Assignment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25424135"
+	},
+	"item": [
+		{
+			"name": "https://localhost:7036/api/updateclaim/1",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"ucr\": \"xxxxxxxxZ\",\r\n    \"companyId\": 1,\r\n    \"claimDate\": \"2023-01-19T15:00:00\",\r\n    \"lossDate\": \"2023-02-19 15:00\",\r\n    \"assuredName\": \"abc\",\r\n    \"incurredLoss\": \"2000.90\",\r\n    \"closed\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7036/api/updateclaim/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7036",
+					"path": [
+						"api",
+						"updateclaim",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
